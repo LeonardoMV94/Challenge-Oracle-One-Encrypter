@@ -1,0 +1,177 @@
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.backgroud-body {
+  background: #f3f5fc;
+}
+.container {
+  display: flex;
+  gap: 10px;
+}
+.container-main{
+  padding:2% 0% 5% 8%;;
+}
+.container-padding {
+  padding: 5% 5% 5% 5%;
+}
+.container-right{
+  padding:0% 0% 5% 5%;;
+}
+.box{  
+  align-items: flex-start;  
+}
+.row{
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.center{
+  justify-content: center;
+  text-align: center;
+}
+
+.ts-24{
+  font-size: 24px;
+}
+.ts-16{
+  font-size: 16px;
+}
+
+.logo-alura {
+  position: absolute;
+  left: 2%;
+  right: 87.2%;
+  top: 5%;
+  bottom: 5%;
+}
+
+.texto-azul {
+  color: #0a3871;
+}
+textarea {
+  font-size: 32px;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  color: #0a3871;
+}
+
+.button-light {
+  gap: 8px;
+  border-radius: 24px;
+  width: 328px;
+  height: 67px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: white;
+}
+button.button-light:hover {
+  background: #eff1fa;
+}
+.button-blue {
+  gap: 8px;
+  border-radius: 24px;
+  width: 328px;
+  height: 67px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #0a3871;
+  color: white;
+}
+button.button-blue:hover {
+  background: #072b61;
+}
+
+#box-right{
+
+}
+.box-mostrable {
+  background: #ffffff;
+}
+/* COLORES */
+.dark-blue-100 {
+  background-color: #609ed4;
+  color: white;
+}
+.dark-blue-200 {
+  background-color: #356ea9;
+  color: white;
+}
+.dark-blue-300 {
+  background-color: #0a3871;
+  color: white;
+}
+.dark-blue-400 {
+  background-color: #072b61;
+  color: white;
+}
+.dark-blue-500 {
+  background-color: #052051;
+  color: white;
+}
+.gray-100 {
+  background-color: #ced4d4;
+  color: black;
+}
+.gray-200 {
+  background-color: #adb5bd;
+  color: black;
+}
+.gray-300 {
+  background-color: #868e96;
+  color: white;
+}
+.gray-400 {
+  background-color: #495057;
+  color: white;
+}
+.gray-500 {
+  background-color: #343a40;
+  color: white;
+}
+
+.light-blue-100 {
+  background-color: #f3f5fc;
+  color: black;
+}
+.light-blue-200 {
+  background-color: #eff1fa;
+  color: black;
+}
+.light-blue-300 {
+  background-color: #e9ecf8;
+  color: black;
+}
+.light-blue-400 {
+  background-color: #aab2d5;
+  color: white;
+}
+.light-blue-500 {
+  background-color: #757fb2;
+  color: white;
+}
+
+/* SOMBRAS */
+.shadow-mostrable {
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+/* MEDIA QUERYS */
+/* tablet */
+@media (max-width: 768px) {
+  #draw{
+    display: none;
+  }
+}
+
+/* smartphone */
+@media (max-width: 375px) {
+}
