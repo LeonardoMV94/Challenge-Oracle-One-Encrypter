@@ -92,6 +92,9 @@ button.button-blue:hover {
 #box-right{
 
 }
+#resp{
+  display: none;
+}
 .box-mostrable {
   background: #ffffff;
 }
