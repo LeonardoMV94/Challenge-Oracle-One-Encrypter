@@ -1,9 +1,9 @@
-import { textoIngresado, textoResultado } from "./modules/elementos";
+import { textoIngresado, textoResultado, 
+    draw, ningunMensaje } from "./modules/elementos.js";
 import { 
-    botonDesencriptar, botonEncriptar, 
-    draw, ningunMensaje} from "./modules/elementos-button";
-import desencriptar from "./modules/desencriptador";
-import encriptarTexto from "./modules/encriptador";
+    botonDesencriptar, botonEncriptar} from "./modules/elementos-button.js";
+import desencriptar from "./modules/desencriptador.js";
+import encriptarTexto from "./modules/encriptador.js";
 
 textoIngresado.addEventListener('click', () => {
     textoIngresado.value = ''
